@@ -1,11 +1,14 @@
-const q1 = require('./01/index');
-const q2 = require('./02/index');
-const q3 = require('./03/index');
-const q5 = require('./05/index');
-const q7 = require('./07/index');
+#!/usr/bin/env node
+
+const q1 = require("./01/index");
+const q2 = require("./02/index");
+const q3 = require("./03/index");
+const q5 = require("./05/index");
+const q7 = require("./07/index");
 
 var argv = require('minimist')(process.argv.slice(2));
 
+function main () {
 if(argv.q1) {
     if(argv.help) {
 
@@ -53,3 +56,8 @@ if(argv.q1) {
 }else if( argv.q7) {
     q7.run();
 }
+}
+
+main();
+
+module.exports = main;

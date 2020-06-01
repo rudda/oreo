@@ -1,14 +1,15 @@
 {
-  "name": "com.github.rudda",
-  "version": "1.0.0",
+  "name": "test-skill",
+  "version": "1.0.6",
   "description": "",
   "main": "app/app.js",
   "directories": {
     "doc": "doc"
   },
   "bin": {
-    "oreo": "app/app.js"
+    "skill": "./app/app.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
