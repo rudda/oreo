@@ -112,7 +112,7 @@ remove duplicated messages from it.
 
 Fisrt a Big and duplicate single linked list is made 
 
-![instruction](doc/fig3.PNG)
+![instruction](doc/fig3.png)
 
 and the return is a list withou duplicate data
 
