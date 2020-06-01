@@ -1,0 +1,28 @@
+{
+  "name": "com.github.rudda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "bin": {
+    "oreo": "app/app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudda/oreo.git"
+  },
+  "author": "Ruddá Beltrão",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rudda/oreo/issues"
+  },
+  "homepage": "https://github.com/rudda/oreo#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}

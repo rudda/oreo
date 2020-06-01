@@ -58,3 +58,4 @@ q3.isTypo('pale', 'bake');
 q3.isTypo('banana', 'banana');
 q3.isTypo('bananaaaaaaaaaaaaaaa', 'banana');
 
+module.exports = q3;

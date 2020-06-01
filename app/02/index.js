@@ -8,7 +8,7 @@ const dictionary = require('./src/fruits');
 const q2 = {
     /**
      * @description
-     * 
+     *
      * @param {string} str 
      * @param {string} str2 
      */
@@ -67,7 +67,7 @@ const q2 = {
     }
 };
 
-let result = q2.jumbledLetters('despite', 'desptie', 'despite'.length);
-console.log(result);
+//let result = q2.jumbledLetters('despite', 'desptie', 'despite'.length);
+//console.log(result);
 
 module.exports = q2;
